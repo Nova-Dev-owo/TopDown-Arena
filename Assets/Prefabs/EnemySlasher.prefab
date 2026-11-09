@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6003398144675785193}
   - component: {fileID: 8916135248029807548}
   - component: {fileID: 7052090783085312983}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EnemySlasher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 5586335457343394724}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.6197615, y: -0.16316162, z: 0}
+  m_LocalPosition: {x: 5.2824984, y: -0.1915947, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -144,6 +144,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyBase
   Damage: 10
+  damagebleLayers:
+    serializedVersion: 2
+    m_Bits: 0
   TargetHealth: 100
   Player: {fileID: 0}
 --- !u!50 &7052090783085312983

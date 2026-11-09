@@ -119,6 +119,95 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &420982007
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 988575185271245622, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.911122
+      objectReference: {fileID: 0}
+    - target: {fileID: 988575185271245622, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.9285196
+      objectReference: {fileID: 0}
+    - target: {fileID: 988575185271245622, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 988575185271245622, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 988575185271245622, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 988575185271245622, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 988575185271245622, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 988575185271245622, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 988575185271245622, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 988575185271245622, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586335457343394724, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: m_Name
+      value: EnemySlasher (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586335457343394724, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586335457343394724, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916135248029807548, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1613562625}
+    - target: {fileID: 8916135248029807548, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: damagebleLayers.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916135248029807548, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: damageableTags.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916135248029807548, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: damagebleLayers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916135248029807548, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: 'damageableTags.Array.data[0]'
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916135248029807548, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: damagebleLayers.Array.data[0].m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
 --- !u!1 &436361190
 GameObject:
   m_ObjectHideFlags: 0
@@ -130,9 +219,9 @@ GameObject:
   - component: {fileID: 436361191}
   - component: {fileID: 436361193}
   - component: {fileID: 436361192}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Square (5)
-  m_TagString: Untagged
+  m_TagString: End
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -364,7 +453,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -514,9 +603,9 @@ GameObject:
   - component: {fileID: 872320561}
   - component: {fileID: 872320563}
   - component: {fileID: 872320562}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Square (7)
-  m_TagString: Untagged
+  m_TagString: End
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -530,8 +619,8 @@ Transform:
   m_GameObject: {fileID: 872320560}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.37645, y: 0.40733033, z: 0}
-  m_LocalScale: {x: 1.396, y: 15.118289, z: 1.396}
+  m_LocalPosition: {x: 15.51, y: 0.40733033, z: 0}
+  m_LocalScale: {x: 1.396, y: 17.5, z: 1.396}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1270844813}
@@ -734,6 +823,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DamageBase
   Damage: 20
+  damageableTags: []
 --- !u!1 &1024517700
 GameObject:
   m_ObjectHideFlags: 0
@@ -925,10 +1015,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemySlasher
       objectReference: {fileID: 0}
+    - target: {fileID: 5586335457343394724, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586335457343394724, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 8916135248029807548, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
       propertyPath: Player
       value: 
       objectReference: {fileID: 1613562625}
+    - target: {fileID: 8916135248029807548, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: damagebleLayers.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916135248029807548, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: damageableTags.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916135248029807548, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: damagebleLayers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916135248029807548, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: 'damageableTags.Array.data[0]'
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916135248029807548, guid: 719bff08e32c03a44889b1a76c9f2971, type: 3}
+      propertyPath: damagebleLayers.Array.data[0].m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1171,6 +1289,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerSlash
   Damage: 20
+  damageableTags:
+  - Enemy
   Trigger: {fileID: 963269072}
 --- !u!1 &1270844812
 GameObject:
@@ -1453,9 +1573,9 @@ GameObject:
   - component: {fileID: 1591329799}
   - component: {fileID: 1591329801}
   - component: {fileID: 1591329800}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Square (4)
-  m_TagString: Untagged
+  m_TagString: End
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1596,7 +1716,7 @@ GameObject:
   - component: {fileID: 1613562629}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1774,9 +1894,9 @@ GameObject:
   - component: {fileID: 1926313968}
   - component: {fileID: 1926313970}
   - component: {fileID: 1926313969}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Square (6)
-  m_TagString: Untagged
+  m_TagString: End
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1790,8 +1910,8 @@ Transform:
   m_GameObject: {fileID: 1926313967}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.00555, y: 0.40733033, z: 0}
-  m_LocalScale: {x: 1.396, y: 15.118289, z: 1.396}
+  m_LocalPosition: {x: -14.18, y: 0.40733033, z: 0}
+  m_LocalScale: {x: 1.396, y: 17.6, z: 1.396}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1270844813}
@@ -2050,3 +2170,4 @@ SceneRoots:
   - {fileID: 1613562625}
   - {fileID: 1270844813}
   - {fileID: 1062090543}
+  - {fileID: 420982007}
