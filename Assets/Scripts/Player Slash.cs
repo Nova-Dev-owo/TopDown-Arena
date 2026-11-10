@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class PlayerSlash : DamageBase
+public class PlayerSlash : MonoBehaviour
 {
     public GameObject Trigger;
 

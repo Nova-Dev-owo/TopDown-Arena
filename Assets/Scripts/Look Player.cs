@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SmoothLookAtMouse : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class SmoothLookAtMouse : MonoBehaviour
     public bool canFire;
     private float timer;
     public float SetDefaultTime;
+    public Image progressbar;
     
     void Start()
     {
@@ -23,6 +25,8 @@ public class SmoothLookAtMouse : MonoBehaviour
     void Update()
     {
         RotateTowardsMouse();
+
+        progressbar.fillAmount = 1 - timer / SetDefaultTime;
     }
 
     void RotateTowardsMouse()

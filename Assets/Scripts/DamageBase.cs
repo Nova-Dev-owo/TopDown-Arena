@@ -21,7 +21,7 @@ public class DamageBase : MonoBehaviour
 
         if (Target == null) return;
 
-        if (damagableTag == other.tag) return;
+        if (!other.CompareTag(damagableTag)) return;
 
         Target.DealDamage(Damage);      
     }
@@ -32,7 +32,7 @@ public class DamageBase : MonoBehaviour
         Target = other.gameObject.GetComponent<IDamagable>();
 
         if (Target == null) return;
-        if (damagableTag == other.transform.tag) return;
+        if (!other.transform.CompareTag(damagableTag)) return;
 
         Target.DealDamage(Damage);
     }

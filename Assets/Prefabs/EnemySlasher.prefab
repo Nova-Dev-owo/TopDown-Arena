@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 6003398144675785193}
   - component: {fileID: 8916135248029807548}
   - component: {fileID: 7052090783085312983}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: EnemySlasher
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -144,9 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyBase
   Damage: 10
-  damagebleLayers:
-    serializedVersion: 2
-    m_Bits: 0
+  damagableTag: 
   TargetHealth: 100
   Player: {fileID: 0}
 --- !u!50 &7052090783085312983

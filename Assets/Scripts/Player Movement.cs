@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -7,6 +8,7 @@ public class PlayerMovement : MonoBehaviour, IDamagable
     
    Rigidbody2D rigidbody;
   public float TargetHealth;
+    public TextMeshProUGUI HPText;
  
     void Start()
     {
@@ -20,7 +22,7 @@ public class PlayerMovement : MonoBehaviour, IDamagable
             Destroy(gameObject);
         }
 
-
+        HPText.text = TargetHealth.ToString();
     }
 
 

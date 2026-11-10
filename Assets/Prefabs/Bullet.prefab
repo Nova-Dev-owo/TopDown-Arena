@@ -158,6 +158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
   Damage: 60
+  damagableTag: Enemy
   force: 6
 --- !u!50 &3095034446034336048
 Rigidbody2D:
